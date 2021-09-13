@@ -1,0 +1,541 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Potolki</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class="header__container">
+			<div class="container">
+					<div class="header__content">
+						<div class="header__logo">
+							<img class="header__img" src="images/logo.png" alt="logo">
+							<p class="header__text">
+								Установка натяжных потолков<br>
+								в Гомеле и Гомельской обл.
+							</p>
+						</div>
+						<div class="header__contacts">
+							<div class="header__tel">
+								<img class="img__tel" src="images/phone-icon.png" alt="icon">
+								<div>
+									<a class="phone" href="tel:+375291743151">+375(29) 174 31 51</a>
+									<p>Без выходных с 9:00 до 23:00</p>
+								</div>
+							</div>
+							<button class="btn__one" type="btn">Заказать звонок</button>
+						</div>
+					</div>
+			</div>
+				<div class="vk">
+					<a class="soc__link" href="https://www.instagram.com/potolokvgomele/?utm_medium=copy_link" target="_blank">
+						<img class="soc__img" src="images/instagram.png" alt="instagram icon">
+					</a>
+					<a class="soc__link" href="https://vk.com/washpotolokvgomele" target="_blank">
+						<img class="soc__img-vk" src="images/vk.png" alt="vk icon">
+					</a>
+				</div>
+		</div>
+		<nav>
+		<div class="nav__container">
+				<div class="nav__menu">
+					<a class="nav__menu-top" href="#factur">Фактуры потолков</a>
+					<a class="nav__menu-top" href="#tex">Технологии потолков</a>
+					<a class="nav__menu-top" href="#otv">Ответы на вопросы</a>
+					<a class="nav__menu-top" href="#otz">Отзывы</a>
+					<a class="nav__menu-top" href="#">Контакты</a>
+				</div>
+		</div>
+		</nav>
+	</header>
+	<main>
+		<div class="first__block">
+			<div class="first__block-container">
+					<div class="block__advertisement">
+						<div class="block__text-one">
+							<h1 class="advertisement__title">
+								Натяжные потолки
+							</h1>
+							<p class="advertisement__text">
+								С 10 летней гарантией от 6 р/м²
+							</p>
+							<p class="advertisement__text-redbac">
+								Дарим подарки!
+							</p>
+							<p class="advertisement__text-red">
+								Скидка на каждый 3-й натяжной потолок 10%!
+								Каждый 5-й светильник в подарок!
+							</p>
+						</div>
+						<div class="calculate">
+							<div class="calculate__head">
+								<h2 class="calculate__title">
+									Калькулятор
+								</h2>
+							</div>
+							<div class="calculate__body">
+								<form class="calculater" action="" method="post">
+									<input type="hidden" class="type" value="calculate" name="type">
+									<div>
+									<label for="square">Площадь потолка (м2):</label>
+									<input name="square" type="text" id="square" required value=1>
+									</div>
+									<div>
+										<label for="price">Стоимость (б.р):</label>
+										<input type="text" name="price" id="price" required value=6>
+									</div>
+									<div>
+										<label for="phone">Ваш телефон:</label>
+										<input type="text" id="phone" name="tel" required class="tel" maxlength="12">
+									</div>
+									<p class="calculate__text">
+										Мы с вами свяжемся и договоримся об удобном времени замера и консультации
+									</p>
+									<button class="btn" type="btn">Оставить заявку</button>
+								</form>
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+		<div class="second__block">
+				<div class="characteristics">
+					<h2 class="services">
+						Быстро, чисто, безопасно!
+					</h2>
+					<div class="block__items">
+						<div class="block__item-items">
+							<div class="images__block">
+								<img class="img__block" src="images/item1.png" alt="icon">
+							</div>
+							<div class="desc">
+								<h3 class="block__title">
+									Выгодная цена
+								</h3>
+								<p class="block__text">
+									Лучшее соотношение цены и качества в Гомеле и Гомельской обл.!
+								</p>
+							</div>
+						</div>
+						<div class="block__item-items">
+							<div class="images__block">
+								<img class="img__block" src="images/item2.png" alt="icon">
+							</div>
+							<div class="desc">
+								<h3 class="block__title">
+									Профессионализм
+								</h3>
+								<p class="block__text">
+									Опытная бригада монтажников и современное оборудование
+								</p>
+							</div>
+						</div>
+						<div class="block__item-items">
+							<div class="images__block">
+								<img class="img__block" src="images/item3.png" alt="icon">
+							</div>
+							<div class="desc">
+								<h3 class="block__title">
+									Богатый ассортимент
+								</h3>
+								<p class="block__text">
+									Более 300 цветов, любые виды, любые фактуры
+								</p>
+							</div>
+						</div>
+						<div class="block__item-items">
+							<div class="images__block">
+								<img class="img__block" src="images/item4.png" alt="icon">
+							</div>
+							<div class="desc">
+								<h3 class="block__title">
+									Лучшие материалы
+								</h3>
+								<p class="block__text">
+									Используем только  качественные экологичные плёнки БЕЗ запаха
+								</p>
+							</div>
+						</div>
+						<div class="block__item-items">
+							<div class="images__block">
+								<img class="img__block" src="images/item5.png" alt="icon">
+							</div>
+							<div class="desc">
+								<h3 class="block__title">
+									Гарантия 10 лет!
+								</h3>
+								<p class="block__text">
+									Наши потолки НЕ провисают НЕ выцветают и НЕ портятся
+								</p>
+							</div>
+						</div>
+						<div class="block__item-items">
+							<div class="images__block">
+								<img class="img__block" src="images/item6.png" alt="icon">
+							</div>
+							<div class="desc">
+								<h3 class="block__title">
+									Заключение договора
+								</h3>
+								<p class="block__text">
+									Работаем официально, есть все необходимые сертификаты
+								</p>
+							</div>
+						</div>
+						<div class="block__item-items">
+							<div class="images__block">
+								<img class="img__block" src="images/item7.png" alt="icon">
+							</div>
+							<div class="desc">
+								<h3 class="block__title">
+									Бесплатный замер
+								</h3>
+								<p class="block__text">
+									Выезжаем в течении 1 часа или в др. удобное вам время
+								</p>
+							</div>
+						</div>
+						<div class="block__item-items">
+							<div class="images__block">
+								<img class="img__block" src="images/item8.png" alt="icon">
+							</div>
+							<div class="desc">
+								<h3 class="block__title">
+									Ценим ваше время
+								</h3>
+								<p class="block__text">
+									Изготовление потолка 1-3 дня, установка за пару часов
+								</p>
+							</div>
+						</div>
+						<div class="block__item-items">
+							<div class="images__block">
+								<img class="img__block" src="images/item9.png" alt="icon">
+							</div>
+							<div class="desc">
+								<h3 class="block__title">
+									Аккуратный монтаж
+								</h3>
+								<p class="block__text">
+									После установки поможем с выносом мусора
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+		</div>
+		<div class="third__block" id="factur">
+			<div class="container">
+					<div class="invoice">
+						<h2 class="invoice__title">
+							Фактуры натяжных потолков
+						</h2>
+						<div class="invoice__block">
+							<div class="invoice__items">
+								<img class="invoice__img" src="images/kids-item1.jpg" alt="img">
+								<div class="wrap">
+									<h3 class="wrap__title">
+										Глянцевые потолки
+									</h3>
+									<p class="item__price">
+										от 10р
+									</p>
+									<div>
+										<div class="blu__cicus"><img class="wrap__icon" src="images/chech1.png" alt="img">Бесплатный cервис</div>
+										<div class="blu__cicus-two"><img class="wrap__icon" src="images/chech1.png" alt="img">С установкой</div>
+									</div>
+									<button class="btn" type="button">Оставить заявку</button>
+								</div>
+							</div>
+							<div class="invoice__items">
+								<img class="invoice__img" src="images/kids-item2.jpg" alt="img">
+								<div class="wrap">
+									<h3 class="wrap__title">
+										Матовые потолки
+									</h3>
+									<p class="item__price">
+										от 10р
+									</p>
+									<div>
+										<div class="blu__cicus"><img class="wrap__icon" src="images/chech1.png" alt="img">Бесплатный cервис</div>
+										<div class="blu__cicus-two"><img class="wrap__icon" src="images/chech1.png" alt="img">С установкой</div>
+									</div>
+									<button class="btn" type="button">Оставить заявку</button>
+								</div>
+							</div>
+							<div class="invoice__items">
+								<img class="invoice__img" src="images/kids-item3.jpg" alt="img">
+								<div class="wrap">
+									<h3 class="wrap__title">
+										Сатиновые потолки
+									</h3>
+									<p class="item__price">
+										от 10р
+									</p>
+									<div>
+										<div class="blu__cicus"><img class="wrap__icon" src="images/chech1.png" alt="img">Бесплатный cервис</div>
+										<div class="blu__cicus-two"><img class="wrap__icon" src="images/chech1.png" alt="img">С установкой</div>
+									</div>
+									<button class="btn" type="btn">Оставить заявку</button>
+								</div>
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+		<div class="fourth__block" id="tex">
+				<div class="technologies">
+					<h2 class="technologies__title">
+						Технологии натяжных потолков
+					</h2>
+					<div class="technologies__block">
+						<div class="technologies__foto">
+							<img class="technologies__img" src="images/texnology-item1.jpg" alt="img">
+							<h3 class="technologies__text">
+								Двухуровневые
+							</h3>
+						</div>
+						<div class="technologies__foto">
+							<img class="technologies__img" src="images/texnology-item2.jpg" alt="img">
+							<h3 class="technologies__text">
+								Светопропускающие
+							</h3>
+						</div>
+						<div class="technologies__foto">
+							<img class="technologies__img" src="images/texnology-item3.jpg" alt="img">
+							<h3 class="technologies__text">
+								С фотопечатью
+							</h3>
+						</div>
+						<div class="technologies__foto">
+							<img img class="technologies__img" src="images/texnology-item4.jpg" alt="img">
+							<h3 class="technologies__text">
+								Звездное небо
+							</h3>
+						</div>
+					</div>
+				</div>
+		</div>
+		<div class="fifth__block">
+			<div class="zamer__block">
+					<div class="zamer__block-content">
+						<div class="order__block">
+							<h2 class="order__title">
+								Закажите бесплатный
+								замер прямо сейчас!
+							</h2>
+							<span>
+								<img src="images/check.png" alt="icon">
+								Скидка на каждый третий
+								натяжной потолок 10%
+							</span>
+							<span>
+								<img  src="images/check.png" alt="icon">
+								Каждый 5-й светильник
+								в подарок
+							</span>
+						</div>
+						<div class="form__measurer">
+							<h3 class="measurer__title">
+								ВЫЗВАТЬ ЗАМЕРЩИКА
+							</h3>
+							<p class="measurer__text">
+								БЕСПЛАТНО УЖЕ СЕГОДНЯ!
+							</p>
+							<h4 class="measurer__title-bonus">
+								+ ПОДАРКИ ПО АКЦИИ
+							</h4>
+							<form action="" method="post">
+								<input type="hidden" class="type" value="zamer2" name="type">
+								<input type="text" name="tel" placeholder="Ваш телефон" required class="tel">
+								<button class="btn" type="btn">Оставить заявку</button>
+							</form>
+						</div>
+					</div>
+			</div>
+		</div>
+		<div class="carousel">
+			<div class="carousel__container">
+				<h2 class="title__carousel">
+					НАШИ РАБОТЫ
+				</h2>
+			<div class="carousel__inner">
+				<div class="carousel__item">
+					<div class="carousel__item-box">
+						<img class="carousel__item-img" src="images/spalne.jpg" alt="cars">
+						<h4 class="carousel__item-title">СПАЛЬНИ</h4>
+					</div>
+				</div>
+				<div class="carousel__item">
+					<div class="carousel__item-box">
+						<img class="carousel__item-img" src="images/gostin.jpg" alt="cars">
+						<h4 class="carousel__item-title">ГОСТИННЫЕ</h4>
+					</div>
+				</div>
+				<div class="carousel__item">
+					<div class="carousel__item-box">
+						<img class="carousel__item-img" src="images/detsk.jpg" alt="cars">
+						<h4 class="carousel__item-title">ДЕТСКИЕ</h4>
+					</div>
+				</div>
+				<div class="carousel__item">
+					<div class="carousel__item-box">
+						<img class="carousel__item-img" src="images/kuxnya.jpg" alt="cars">
+						<h4 class="carousel__item-title">КУХНИ</h4>
+					</div>
+				</div>
+				<div class="carousel__item">
+					<div class="carousel__item-box">
+						<img class="carousel__item-img" src="images/uborn.jpg" alt="cars">
+						<h4 class="carousel__item-title">ВАННОЙ И ТУАЛЕТЫ</h4>
+					</div>
+				</div>
+				<div class="carousel__item">
+					<div class="carousel__item-box">
+						<img class="carousel__item-img" src="images/ofis.jpg" alt="cars">
+						<h4 class="carousel__item-title">ОФИСЫ</h4>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		<div class="ask container-questions" id="otv">
+			<div class="container">
+					<div class="application">
+						<h2 class="application__title">
+							Ответы на вопросы
+						</h2>
+						<h3 class="application__title-text">
+							Можете задать вопросы по телефону
+							или просто оставьте заявку и мы вам перезвоним
+						</h3>
+						<a class="application__title-tel" href="tel:+375291743151">+375(29) 174 31 51</a>
+					</div>
+					<div class="answers">
+						<div class="ask__blocks">
+							<div class="item item1">
+								<h4>Как сильно опустится потолок?</h4>
+								<div>Потолок опустится незначительно. Натяжные потолки монтируются на расстоянии 3 см от существующего потолка, если у него нет сильных перепадов.</div>
+							</div>
+							<div class="item item2">
+								<h4>Сколько стоит натяжной потолок?</h4>
+								<div>Точная стоимость натяжного потолка будет известна после проведения замеров и уточнения ваших пожеланий. Она складывается из следующих факторов: стоимость материалов, площадь помещения, сложность и объем монтажа.</div>
+							</div>
+							<div class="item item3">
+								<h4>Что случится с потолками, если вас затопят?</h4>
+								<div>Наши потолки выдерживают до 100 л воды на квадратный метр.<br>Это спасёт ваш ремонт в случае затопления сверху. Если это произойдёт, просто позвоните нам. И мы оперативно приедим и сольём воду, сохранив целостность полотна.</div>
+							</div>
+						</div>
+						<div class="ask__blocks two">
+							<div class="item item4">
+								<h4>Какой срок изготовления и установки?</h4>
+								<div>От замера потолка до его полной установки 1-3 дня. На замер наша бригада может выехать в течении часа или в любое время, когда вам удобно.</div>
+							</div>
+							<div class="item item5">
+								<h4>Портится ли мебель и обои при монтаже?</h4>
+								<div>При монтаже температура в помещении доводится до 60 градусов.<br>Мебель и другие предметы интерьера при этом не портятся. Однако мы рекомендуем особенно ценные предметы и комнатные растения вынести из помещения.</div>
+							</div>
+							<div class="item item6">
+								<h4>Плюсы установки натяжных потолков?</h4>
+								<div>Не нужно выравнивать потолок, никакой штукатурки, грунтовки, краски. Чистая комната без мусора, быстрая установка, нет нужды перекрашивать, гарантия 10 лет.</div>
+							</div>
+						</div>
+					</div>
+						<div class="ask__btn">
+							<button class="btn" type="btn">
+								ОСТАВИТЬ ЗАЯВКУ
+							</button>
+						</div>
+			</div>
+		</div>
+		<div class="reviews__container" id="otz">
+				<div class="reviews">
+					<h2 class="reviews__title">
+						Отзывы наших клиентов
+					</h2>
+					<div class="foto__review">
+						<div class="foto__review-one">
+							<img class="review__img" src="images/avatar1.jpg" alt="img">
+							<h5>
+								Валентина Марченка
+							</h5>
+							<p class="review__text">
+								Срочно были нужны потолки. Наткнулась в интернете на сайт, позвонила и записалась на замер, объяснила, что срочно надо. Через час  приехал замерщик, приятный молодой человек, показал образцы материала, проконсультировал. Все быстренько померил, посчитал, цена понравилась, помог определиться с выбором светильников, заключили договор.
+							</p>
+						</div>
+						<div class="foto__review-two">
+							<img class="review__img" src="images/avatar2.jpg" alt="img">
+							<h5>
+								Артем Кравченко
+							</h5>
+							<p class="review__text">
+								У нас был ограничен бюджет, поэтому выбирали очень долго. Вызвали несколько замерщиков. В этой компании оказалась самая хорошая цена, поэтому и остановили выбор на них. Ни грамма не пожалели. Всем рекомендую. Отдельно хочу поблагодарить бригаду монтажников. Все сделали аккуратно и быстро, спасибо огромное!
+							</p>
+						</div>
+						<div class="foto__review-three">
+							<img class="review__img" src="images/avatar3.jpg" alt="img">
+							<h5>
+								Андрей Чудинов
+							</h5>
+							<p class="review__text">
+								Хорошая компания. Заказывал натяжной потолок на кухню и в спальню. Получилось очень красиво и современно. Большой ассортимент и нормальные цены. Отношение к клиенту человечное. Сделали быстро, после себя убрали, ничего не испортили в квартире, хотя опасения были на этот счет, т.к. работа такая. В общем одни положительные эмоции.
+							</p>
+						</div>
+					</div>
+				</div>
+		</div>
+		<div class="map__container">
+			<div class="container">
+					<div class="map__containet-text">
+						<h2 class="map__title">
+							Вызовите замерщика в любой день,
+							мы работаем без выходных!
+						</h2>
+						<h3 class="map__title-text">
+							Произведем замер, поможем определиться с фактурой
+							и цветом, рассчитаем точную стоимость.
+						</h3>
+						<button button class="btn" type="btn">
+							ОСТАВИТЬ ЗАЯВКУ
+						</button>
+					</div>
+			</div>
+		</div>
+		<iframe src="https://yandex.by/map-widget/v1/-/CCUmRYg-8C" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+	</main>
+	<footer>
+		<div class="footer__container">
+				<div class="footer__content">
+					<div class="footer__title">
+						Натяжные потолки У Сержа
+					</div>
+					<div class="footer__text">
+						Монтаж и обслуживание натяжных<br>
+						потолков в Гомеле и Гомельской обл.
+					</div>
+					<div class="footer__contacts">
+						<a class="link__tel" href="tel:+375291743151">
+							<img class="footer__img-tel" src="images/tel.png" alt="icon">+375(29) 174 31 51
+						</a>
+						<a class="link__mail" href="mailto:PotolokSerj@gmail.com">
+							<img class="footer__img-mail" src="images/mail.png" alt="icon">PotolokSerj@gmail.com
+						</a>
+					</div>
+				</div>
+		</div>
+		<a class="up" href="#"><img src="images/chevron-up.png" alt="icon"></a>
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
